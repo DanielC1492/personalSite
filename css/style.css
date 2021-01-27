@@ -1,0 +1,97 @@
+body{
+    background-image: url(http://cdn30.us1.fansshare.com/image/wallpapergreen/tumblr-static-mint-background-wallpaper-mint-green-979721691.jpg);
+}
+
+.background{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+
+}
+
+.midTop{
+    height: 20vh;
+    width: 100vw;
+}
+
+.midMid{
+    display: flex;
+    flex-direction: column;
+    height: 40.66vh;
+    width: 100vw;
+}
+
+.miNombre{
+    text-align: center;
+    justify-items: center;
+    font-size: 2em;
+}
+
+.descripcion{
+    margin-top: 3em;
+    text-align: center;
+    justify-items: center;
+    font-size: 1em;
+}
+
+.midBot{
+    display: flex;
+    flex-direction: row;
+    height: 50.33vh;
+    width: 100vw;
+}
+
+.botLeft{
+    height: 50.33vh;
+    width: 33.33vw;
+}
+
+.botMid{
+    height: 50.33vh;
+    width: 33.33vw;
+}
+
+.botRight{
+    height: 50.33vh;
+    width: 33.33vw;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    font-size: 2.5vh;
+}
+
+.about{
+    width: 33.33vw;
+}
+
+.biAbout:hover{
+    width: 2.5em;
+    height: 2.5em;
+    transition: 0.3s;
+}
+
+.biSkills:hover{
+    width: 2.5em;
+    height: 2.5em;
+    transition: 0.3s;
+}
+
+.biContact:hover{
+    width: 2.5em;
+    height: 2.5em;
+    transition: 0.3s;
+}
+
+
+.skills{
+    width: 33.33vw;
+}
+
+.contacto{
+    width: 33.33vw;
+}
