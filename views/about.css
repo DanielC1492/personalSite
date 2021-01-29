@@ -1,3 +1,61 @@
 body{
     background-image: url(http://cdn30.us1.fansshare.com/image/wallpapergreen/tumblr-static-mint-background-wallpaper-mint-green-979721691.jpg);
 }
+
+.top{
+    height: 33.33vh;
+    width: 100vw;
+}
+
+.mid{
+    height: 33.33vh;
+    width: 100vw;
+}
+
+.quienSoy{
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+.bot{
+    height: 33.33vh;
+    width: 100vw;
+}
+
+.miFoto{
+    height: 10em;
+    width: 10em;
+    justify-self: center;
+    align-self: center;
+    margin-left: 22vw;
+    margin-top: 3em;
+}
+
+.miFotoItself{
+    height: 10em;
+    width: 10em;
+    justify-self: center;
+    align-self: center;
+    margin-left: 22vw;
+    margin-top: 3em;
+    border-radius: 2em;
+}
+
+@media (max-width: 375px){
+    .miFotoItself{
+        display: flex;
+        justify-content: center;
+        margin-right: 2em;
+
+    }
+}
+
+@media (max-width: 375px){
+    .miFoto{
+        display: flex;
+        justify-content: center;
+
+    }
+}
