@@ -28,11 +28,27 @@ body{
     font-size: 2em;
 }
 
+@media (max-width: 375px){
+    .miNombre{
+        text-align: left;
+        justify-self: left;
+        margin-left: 3em;
+
+    }
+}
+
 .descripcion{
     margin-top: 3em;
     text-align: center;
     justify-items: center;
     font-size: 1em;
+}
+
+@media (max-width: 375px){
+    .descripcion{
+        opacity: 0;
+
+    }
 }
 
 .midBot{
@@ -65,33 +81,90 @@ body{
     font-size: 2.5vh;
 }
 
+@media (max-width: 375px){
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        justify-self: left;
+        justify-items: left;
+        text-align: left;
+        justify-content: left;
+        margin-right: 5em;
+    }
+}
+
+
+
+
 .about{
     width: 33.33vw;
 }
-
-.biAbout:hover{
-    width: 2.5em;
-    height: 2.5em;
-    transition: 0.3s;
+@media (max-width: 375px){
+    .midMid {
+        height: 40.66vh;
+        width: 0em;
+    }
 }
 
-.biSkills:hover{
-    width: 2.5em;
-    height: 2.5em;
-    transition: 0.3s;
+@media (max-width: 375px){
+    .about {
+        margin-bottom: 0.5em;
+    }
 }
 
-.biContact:hover{
-    width: 2.5em;
-    height: 2.5em;
-    transition: 0.3s;
+.aboutIconItself{
+    color: black;
 }
 
+.aboutIconItself:hover{
+    height: 3em;
+    width: 3em;
+    transition: 0.4s;
+    transition-timing-function: linear;
+    color: rgb(35, 116, 15);
+}
 
 .skills{
     width: 33.33vw;
 }
 
+@media (max-width: 375px){
+    .skills {
+        margin: auto;
+    }
+}
+
+.skillsIconItself{
+    color: black;
+}
+
+.skillsIconItself:hover{
+    height: 3em;
+    width: 3em;
+    transition: 0.4s;
+    transition-timing-function: linear;
+    color: rgb(35, 116, 15);
+}
+
 .contacto{
     width: 33.33vw;
+}
+
+@media (max-width: 375px){
+    .contacto {
+        margin-top:0.5em;
+        margin-right: 2em;
+    }
+}
+
+.contactoIconItself{
+    color: black;
+}
+
+.contactoIconItself:hover{
+    height: 3em;
+    width: 3em;
+    transition: 0.4s;
+    transition-timing-function: linear;
+    color: rgb(35, 116, 15);
 }
