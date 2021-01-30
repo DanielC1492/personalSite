@@ -1,3 +1,53 @@
 body{
     background-image: url(http://cdn30.us1.fansshare.com/image/wallpapergreen/tumblr-static-mint-background-wallpaper-mint-green-979721691.jpg);
 }
+
+.top{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftTop{
+    width: 33.33vw;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+
+.musico{
+    justify-content: center;
+    height: 10vh;
+    width: 43.66vw;
+    justify-self: center;
+    margin: auto;
+    margin-left: 8em;
+    
+}
+
+.rightTop{
+    width: 33.33vw;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+
+.programacion{
+    justify-content: center;
+    height: 10vh;
+    width: 43.66vw;
+    justify-self: center;
+    margin: auto;
+}
+
+.skillsText{
+    margin-top: 2em;
+    width: 33.33vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
